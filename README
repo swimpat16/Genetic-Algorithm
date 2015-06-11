@@ -1,0 +1,8 @@
+Description:
+	Genetic Algorithm simulator written in C++ by Patrick Elam and Alex Chaloux.
+Files:
+	lab5.cc: Simulator written in C++.
+	run.cc: Script used to call the simulator on each configuration and properly sort the output files.
+	gen_config.cc: Script used to generate configuration files for the first problem to be fed into the simulator.
+	gen_config2.cc: Script used to generate configuration files for the second problem to be fed into the simulator.
+Usage: config_file_name || NUM_GENES POP_SIZE MUT_PROB CROSS_PROB R_SEED NUM_GEN
